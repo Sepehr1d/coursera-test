@@ -1,1 +1,72 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 25px 0px;
+}
+.con-title{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 5px 0 5px;
+    width: 35%;
+    float: right;
+}
+#first-con{
+    background-color: rgb(236, 114, 114);
+    color: aliceblue;
+}
+#second-con{
+    background-color: rgb(238, 201, 132);
+}
+#third-con{
+    background-color: rgb(73, 216, 251);   
+}
+.text{
+    clear: both;
+    margin: 0 10px;
+}
+#beef-con{
+    margin-left: 5%;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    background-color: rgba(128, 128, 128, 0.644);
+}
+@media (min-width:992px){
+    .container{
+        width: 27%;
+        margin: 35px 2% 0 2%;
+        float: left;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .container{
+        width: 44%;
+        float: left;
+        margin-bottom: 20px;
+        margin-right: 2%;
+        
+    }
+    .container#chicken-con{
+        width: 90%;
+        float: left;
+        margin-left: 5%;
+    }
+}
+@media (max-width:767px){
+    .container{
+        width: 80%;
+        margin-bottom: 20px;
+        margin-left: 10%;
+    }
+    .container#beef-con{
+        margin-left: 10%;
+    }
+}
