@@ -1,1 +1,84 @@
 
+#body{
+ font-size: 16px;
+ font-family: 'Oxygen';  
+}
+#header-nav{
+    background-color: #777777;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #111;
+}
+.navbar-header{
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    margin-bottom: 20px;
+}
+.navbar .container a{
+    color: #111;
+    font-weight: bold;
+}
+.navbar .container a:hover , .navbar .container a:focus{
+    text-decoration: none;
+}
+#nav-list a{
+    color: #111;
+    text-align: center;
+}
+.navbar-header .navbar-toggle{
+    margin-top: 45px;
+}
+
+#collapsable-nav a span{
+    font-size: 1.4em;
+}
+#collapsable-nav ul li
+{
+    border-bottom: 1px solid #111;
+    background-color: #eeeeee;
+}
+#collapsable-nav ul li:hover
+{
+    background-color: #aaaaaa;
+}
+#nav-list{
+    margin-top: 0;
+    margin-bottom: 0;   
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -20px;
+}
+#main-content-text{
+    background-color: #bbbbbb;
+    margin-top: 15px;
+}
+
+
+@media(min-width:992px) and (max-width:1199px){
+    #main-content-text{
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+    }
+}
+
+@media (min-width:1200px){
+    #main-content-text{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+@media (max-width:768px){
+    .navbar .container .navbar-brand{
+        margin-left: 7.5%;
+    }
+    #main-content-text{
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+    }
+    
+}
